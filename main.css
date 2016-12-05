@@ -1,0 +1,88 @@
+body {
+	font-family: 'Open Sans';
+	color: black;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+.services {
+  font-size: 19px;
+}
+
+.main a:link {
+	text-decoration: none;
+	color: white;
+}
+
+.social {
+	font-size: 70px;
+	text-decoration: none;
+}
+
+.social:hover {
+	color: #710184;
+}
+
+.all {
+	background-image: url("bg1.png");
+	background-size: cover;}
+
+.main {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    color: white;
+    width: auto;
+}
+
+
+.title {
+	padding: 15% 0;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      /*height: 500px;*/
+      margin: 0 auto;
+  }
+
+#container {
+    background: #DDD;
+    max-width: 1000px;
+}
+.item {
+    width: 200px;
+    float: left;
+}
+.item img {
+    display: block;
+    width: 100%;
+}
+
+.description{
+  font-size: 25px;
+}
+
+button {
+    font-size: 18px;
+}
+
+
+
+
