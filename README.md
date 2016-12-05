@@ -1,9 +1,9 @@
 # NicolasO
-Pagina web de Nicolás Ocampo Alba
-Creada por: David González
-Te agradezco si colaboras para mejorar el diseño de la página 
-
-
-Nicolás Ocampo Alba's webpage
-Created by: David González
-Thank you for collaborating to improve the page layout
+Pagina web de Nicolás Ocampo Alba <br>
+Creada por: David González<br>
+Te agradezco si colaboras para mejorar el diseño de la página <br>
+<br>
+<br>
+Nicolás Ocampo Alba's webpage<br>
+Created by: David González<br>
+Thank you for collaborating to improve the page layout<br>
