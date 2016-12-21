@@ -10,7 +10,7 @@ Te agradezco si colaboras para mejorar el diseño de la página <br>
 
 # Nicolás Ocampo Alba's webpage
 
-# By: David Gonzáñez
+# By: David Gonzalez
 
 Nicolas Ocampo Alba's web page offering his work services
 
