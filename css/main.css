@@ -39,9 +39,9 @@ h1 {
 }
 
 .all {
-	background-image: url("bg1.png");
+	background-image: url("../images/bg1.png");
 	background-size: cover;}
-
+  
 .main {
     display: inline-block;
     vertical-align: middle;
