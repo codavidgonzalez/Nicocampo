@@ -185,6 +185,10 @@ h1 {
   display: block;
 }
 
+input, textarea {
+  color: black;
+}
+
 
 .col2 {
   align-items: flex-start;
@@ -195,12 +199,11 @@ h1 {
 }
 
 
-@media only screen and (max-width: 800px) {
-
-  .formulario {
-  display: flex;
-  flex-wrap: nowrap;
-  background: red;
-  
+input, textarea {
+  outline: 0;
 }
+
+input:focus, textarea:focus {
+  background-color: lightgray;
+  
 }
