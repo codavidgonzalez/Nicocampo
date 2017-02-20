@@ -2,7 +2,10 @@ body {
 	font-family: 'Open Sans';
 	color: black;
   overflow-x: hidden;
+  margin: 0;
 }
+
+
 
 ul {
   list-style: none;
@@ -10,6 +13,7 @@ ul {
 
 footer {
 	color: black;
+  font-family: 'Philosopher', cursive;
 }
 
 a:hover {
@@ -20,8 +24,19 @@ h1 {
 	font-size: 100px;
 }
 
+.alinear{
+  display: flex;
+  justify-content: space-around;
+}
+
+.portada {
+  width: 600px;
+  
+}
+
 .services {
   font-size: 19px;
+  text-align: justify;
 }
 
 .main a:link {
@@ -51,6 +66,18 @@ h1 {
 }
 
 
+
+.article {
+  background-image: url(../images/audiovisual.jpg);
+  background-size: cover;
+  color: white;
+  /*margin-top: 4px;*/
+  padding: 10px;
+  font-family: 'Philosopher', cursive;
+  
+}
+
+
 .title {
 	padding: 15% 0;
 }
@@ -58,7 +85,7 @@ h1 {
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
-      /*height: 500px;*/
+      
       margin: 0 auto;
   }
 
@@ -76,13 +103,104 @@ h1 {
 }
 
 .description{
-  font-size: 25px;
+  font-size: 22px;
 }
 
-button {
+.button2 {
     font-size: 18px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
 }
 
 
+.bord {
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px 30px;
+
+}
 
 
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  height: 200px;
+  align-items: center;
+}
+
+.formulario {
+  display: flex;
+  width: 420px;
+  color: white;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+
+.intereses label {
+  font-size: 13px;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background-color: #300134;
+  margin-top: 10px;
+  padding: 50px 10px;
+}
+
+
+.contacto a {
+  color: white;
+  margin: 15px 9px 9px 0;
+
+}
+
+.contacto img {
+  display: block;
+}
+
+
+.col2 {
+  align-items: flex-start;
+}
+
+.col2 input {
+  margin-top: 7px;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .formulario {
+  display: flex;
+  flex-wrap: nowrap;
+  background: red;
+  
+}
+}
