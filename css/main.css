@@ -68,7 +68,7 @@ h1 {
 
 
 .article {
-  background-image: url(../images/audiovisual.jpg);
+  background-color: #300134;
   background-size: cover;
   color: white;
   /*margin-top: 4px;*/
@@ -170,7 +170,6 @@ h1 {
 }
 .footer {
   background-color: #300134;
-  margin-top: 10px;
   padding: 50px 10px;
 }
 
