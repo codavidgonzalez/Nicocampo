@@ -122,6 +122,14 @@ h1 {
 
 }
 
+.media {
+	display: flex;
+	justify-content: space-around;
+}
+
+.leg {
+	margin: 40px;
+}
 
 .contenedor {
   width: 800px;
@@ -131,8 +139,8 @@ h1 {
 
 .number {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+	/*flex-direction: column;*/
+	justify-content: space-between;
 }
 
 footer a{
