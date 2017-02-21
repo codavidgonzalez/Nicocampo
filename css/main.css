@@ -132,15 +132,20 @@ h1 {
 }
 
 .contenedor {
-  width: 800px;
+  width: 80%;
   margin: auto;
+  
 
 }
 
 .number {
 	display: flex;
-	/*flex-direction: column;*/
-	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.number a {
+	margin-left: 120px;
+	
 }
 
 footer a{
@@ -148,46 +153,6 @@ footer a{
 }
 
 
-
-.footer .contenedor {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contacto {
-  display: flex;
-  width: 300px;
-  flex-wrap: wrap;
-  height: 200px;
-  align-items: center;
-}
-
-.formulario {
-  display: flex;
-  width: 420px;
-  color: white;
-}
-
-.formulario label, .sexo, .intereses {
-  margin-bottom: 10px;
-}
-
-.sexo {
-  margin-top: 10px;
-}
-
-.intereses label {
-  font-size: 13px;
-}
-
-.col1 {
-  margin-right: 15px;
-}
-
-.col1, .col2 {
-  display: flex;
-  flex-direction: column;
-}
 .footer {
   background-color: #300134;
 
@@ -195,35 +160,5 @@ footer a{
 }
 
 
-.contacto a {
-  color: white;
-  margin: 15px 9px 9px 0;
-
-}
-
-.contacto img {
-  display: block;
-}
-
-input, textarea {
-  color: black;
-}
 
 
-.col2 {
-  align-items: flex-start;
-}
-
-.col2 input {
-  margin-top: 7px;
-}
-
-
-input, textarea {
-  outline: 0;
-}
-
-input:focus, textarea:focus {
-  background-color: lightgray;
-  
-}
