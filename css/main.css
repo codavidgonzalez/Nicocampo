@@ -16,9 +16,10 @@ footer {
   font-family: 'Philosopher', cursive;
 }
 
-a:hover {
+/*a:hover {
 	text-decoration: none;
-}
+	color: white;
+}*/
 
 h1 {
 	font-size: 100px;
@@ -68,10 +69,9 @@ h1 {
 
 
 .article {
-  background-color: #300134;
-  background-size: cover;
+  background: #300134;
   color: white;
-  /*margin-top: 4px;*/
+  margin-bottom: 1px;
   padding: 10px;
   font-family: 'Philosopher', cursive;
   
@@ -126,8 +126,22 @@ h1 {
 .contenedor {
   width: 800px;
   margin: auto;
+  display: flex;
+  justify-content: space-around;
   position: relative;
 }
+
+.number {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+footer a{
+	color: white;
+}
+
+
 
 .footer .contenedor {
   display: flex;
@@ -170,6 +184,7 @@ h1 {
 }
 .footer {
   background-color: #300134;
+
   padding: 50px 10px;
 }
 
