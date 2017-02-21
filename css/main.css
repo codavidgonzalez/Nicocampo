@@ -126,9 +126,7 @@ h1 {
 .contenedor {
   width: 800px;
   margin: auto;
-  display: flex;
-  justify-content: space-around;
-  position: relative;
+
 }
 
 .number {
