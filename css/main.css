@@ -69,9 +69,7 @@ h1 {
 
 
 .article {
-  /*background-image: url(../images/audiovisual.jpg);*/
   background: #300134;
-  /*background-size: cover;*/
   color: white;
   margin-bottom: 1px;
   padding: 10px;
@@ -186,7 +184,7 @@ footer a{
 }
 .footer {
   background-color: #300134;
-  /*margin-top: 10px;*/
+
   padding: 50px 10px;
 }
 
