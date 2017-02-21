@@ -3,8 +3,17 @@ body {
 	color: black;
   overflow-x: hidden;
   margin: 0;
+
 }
 
+/*.wdt {
+  width: 1200px;
+}
+*/
+.container {
+  padding: 0;
+  margin: 0;
+}
 
 
 ul {
@@ -12,6 +21,7 @@ ul {
 }
 
 footer {
+  
 	color: black;
   font-family: 'Roboto Slab', serif;
 }
@@ -28,16 +38,21 @@ h1 {
 .alinear{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 .portada {
   width: 600px;
+ 
   
 }
 
 .services {
   font-size: 19px;
   text-align: justify;
+  padding: 0;
+  
 }
 
 .main a:link {
@@ -46,7 +61,7 @@ h1 {
 }
 
 .social {
-	font-size: 70px;
+	font-size: 62px;
 	text-decoration: none;
 }
 
@@ -82,28 +97,14 @@ h1 {
 	padding: 15% 0;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      
-      margin: 0 auto;
-  }
 
-#container {
-    background: #DDD;
-    max-width: 1000px;
-}
-.item {
-    width: 200px;
-    float: left;
-}
-.item img {
-    display: block;
-    width: 100%;
-}
 
 .description{
   font-size: 22px;
+}
+
+.ctn {
+  padding-right: 0;
 }
 
 .button2 {
@@ -114,21 +115,30 @@ h1 {
     border: none;
 }
 
+.galery {
+  /*padding: 10px;*/
+  font-size: 80px;
+  font-family: 'Robo Slab', serif;
+}
 
 .bord {
   border: 1px solid white;
-  padding: 20px;
+  padding: 25px;
+  margin: 15px;
   border-radius: 10px 30px;
 
 }
 
 .media {
+  margin-top: 30px;
+  margin-left: 3px;
 	display: flex;
 	justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .leg {
-	margin: 40px;
+	margin-left: 40px;
 }
 
 .contenedor {
@@ -140,11 +150,13 @@ h1 {
 
 .number {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+  flex-wrap: wrap;
 }
 
 .number a {
-	margin-left: 120px;
+	font-size: 25px;
+  margin: 20px;
 	
 }
 
@@ -155,8 +167,8 @@ footer a{
 
 .footer {
   background-color: #300134;
-
-  padding: 50px 10px;
+  margin: auto;
+  padding: 50px 0;
 }
 
 
